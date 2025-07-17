@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manus - App para Gerenciar Tarefas com Login e Acompanhamento</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="https://manus.im/favicon.ico" alt="Manus Logo" class="logo-img">
+                    <span class="logo-text">manus</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#features" class="nav-link">Funcionalidades</a>
+                    <a href="#demo" class="nav-link">Demo</a>
+                    <a href="#contact" class="nav-link">Contato</a>
+                    <button class="cta-button">Começar Agora</button>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    App para Gerenciar Tarefas com 
+                    <span class="highlight">Login e Acompanhamento</span>
+                </h1>
+                <p class="hero-description">
+                    Solução completa para vendedores e equipes acompanharem tarefas em tempo real. 
+                    Sistema de login integrado, criação de chamados e visualização de processos em andamento.
+                </p>
+                <div class="hero-buttons">
+                    <button class="primary-button">
+                        <i class="fas fa-rocket"></i>
+                        Começar Agora
+                    </button>
+                    <button class="secondary-button">
+                        <i class="fas fa-play"></i>
+                        Ver Demo
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="app-mockup">
+                    <div class="phone-frame">
+                        <div class="screen">
+                            <div class="app-interface">
+                                <div class="status-bar">
+                                    <span class="time">9:41</span>
+                                    <div class="indicators">
+                                        <i class="fas fa-signal"></i>
+                                        <i class="fas fa-wifi"></i>
+                                        <i class="fas fa-battery-three-quarters"></i>
+                                    </div>
+                                </div>
+                                <div class="app-header">
+                                    <h3>Meus Chamados</h3>
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                                <div class="task-list">
+                                    <div class="task-item active">
+                                        <div class="task-info">
+                                            <h4>Implementar sistema de login</h4>
+                                            <p>Em andamento - João Silva</p>
+                                        </div>
+                                        <div class="task-status">
+                                            <span class="status-badge in-progress">Em Progresso</span>
+                                        </div>
+                                    </div>
+                                    <div class="task-item">
+                                        <div class="task-info">
+                                            <h4>Configurar banco de dados</h4>
+                                            <p>Concluído - Maria Santos</p>
+                                        </div>
+                                        <div class="task-status">
+                                            <span class="status-badge completed">Concluído</span>
+                                        </div>
+                                    </div>
+                                    <div class="task-item">
+                                        <div class="task-info">
+                                            <h4>Testes de integração</h4>
+                                            <p>Pendente - Pedro Costa</p>
+                                        </div>
+                                        <div class="task-status">
+                                            <span class="status-badge pending">Pendente</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Funcionalidades Principais</h2>
+                <p class="section-description">
+                    Tudo que você precisa para gerenciar tarefas e acompanhar processos de forma eficiente
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-lock"></i>
+                    </div>
+                    <h3 class="feature-title">Sistema de Login Seguro</h3>
+                    <p class="feature-description">
+                        Acesso controlado com registro de nome e data de acesso. 
+                        Cada usuário tem seu próprio painel personalizado.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Criação de Chamados</h3>
+                    <p class="feature-description">
+                        Abra chamados para execução de tarefas de forma rápida e organizada. 
+                        Sistema intuitivo e fácil de usar.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 class="feature-title">Acompanhamento em Tempo Real</h3>
+                    <p class="feature-description">
+                        Visualize o status de todas as tarefas e saiba exatamente 
+                        com quem cada processo está em andamento.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Geração de Processos</h3>
+                    <p class="feature-description">
+                        Cada tarefa gera automaticamente um processo com histórico completo 
+                        e rastreabilidade total das ações.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Gestão de Equipe</h3>
+                    <p class="feature-description">
+                        Visualize quem está responsável por cada tarefa e 
+                        distribua trabalho de forma eficiente entre a equipe.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3 class="feature-title">Notificações Inteligentes</h3>
+                    <p class="feature-description">
+                        Receba alertas sobre mudanças de status, prazos próximos 
+                        e atualizações importantes das suas tarefas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="demo-content">
+                <div class="demo-text">
+                    <h2 class="demo-title">Veja o App em Ação</h2>
+                    <p class="demo-description">
+                        Interface intuitiva e moderna, desenvolvida pensando na experiência do usuário. 
+                        Acesse de qualquer dispositivo e mantenha sua equipe sempre conectada.
+                    </p>
+                    <div class="demo-features">
+                        <div class="demo-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Login rápido e seguro</span>
+                        </div>
+                        <div class="demo-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Criação de chamados em segundos</span>
+                        </div>
+                        <div class="demo-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Acompanhamento visual de processos</span>
+                        </div>
+                        <div class="demo-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Responsáveis claramente identificados</span>
+                        </div>
+                    </div>
+                    <button class="demo-button">
+                        <i class="fas fa-external-link-alt"></i>
+                        Testar Agora
+                    </button>
+                </div>
+                <div class="demo-visual">
+                    <div class="demo-screens">
+                        <div class="screen-mockup login-screen">
+                            <div class="mockup-header">
+                                <div class="mockup-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="mockup-title">Login</span>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="login-form">
+                                    <h3>Bem-vindo de volta</h3>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Nome de usuário" class="form-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" placeholder="Senha" class="form-input">
+                                    </div>
+                                    <button class="login-button">Entrar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="screen-mockup dashboard-screen">
+                            <div class="mockup-header">
+                                <div class="mockup-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="mockup-title">Dashboard</span>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="dashboard-stats">
+                                    <div class="stat-card">
+                                        <span class="stat-number">12</span>
+                                        <span class="stat-label">Tarefas Ativas</span>
+                                    </div>
+                                    <div class="stat-card">
+                                        <span class="stat-number">8</span>
+                                        <span class="stat-label">Concluídas</span>
+                                    </div>
+                                </div>
+                                <div class="recent-tasks">
+                                    <div class="task-preview">
+                                        <div class="task-dot active"></div>
+                                        <span>Configurar servidor</span>
+                                    </div>
+                                    <div class="task-preview">
+                                        <div class="task-dot completed"></div>
+                                        <span>Revisar código</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Pronto para Começar?</h2>
+                <p class="cta-description">
+                    Transforme a gestão de tarefas da sua equipe hoje mesmo. 
+                    Sistema completo com 300 créditos inclusos.
+                </p>
+                <div class="cta-buttons">
+                    <button class="cta-primary">
+                        <i class="fas fa-rocket"></i>
+                        Começar Agora
+                    </button>
+                    <button class="cta-secondary">
+                        <i class="fas fa-phone"></i>
+                        Falar com Vendas
+                    </button>
+                </div>
+                <div class="cta-note">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Inclui 300 créditos para começar</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="https://manus.im/favicon.ico" alt="Manus Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">manus</span>
+                    </div>
+                    <p class="footer-description">
+                        Solução completa para gerenciamento de tarefas com login e acompanhamento em tempo real.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Produto</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#">Preços</a></li>
+                        <li><a href="#">Documentação</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Empresa</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Suporte</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Manus. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
